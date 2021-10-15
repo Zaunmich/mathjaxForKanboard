@@ -10,8 +10,8 @@ This plugin uses a CDN (jsdelivr.net) to fetch the required JS files for MathJax
 
 Sources
 ------
-MathJax: https://www.mathjax.org/
-Kanboard: https://kanboard.org/
+- MathJax: https://www.mathjax.org/
+- Kanboard: https://kanboard.org/
 
 Author
 ------
