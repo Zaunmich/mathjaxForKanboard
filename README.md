@@ -10,6 +10,7 @@ This plugin uses a CDN (jsdelivr.net) to fetch the required JS files for MathJax
 
 Sources
 ------
+
 - MathJax: https://www.mathjax.org/
 - Kanboard: https://kanboard.org/
 
@@ -35,3 +36,8 @@ You have the choice between 3 methods:
 
 Note: Plugin folder is case-sensitive.
 
+ToDos
+-----
+
+- Add icons to the text editor toolbar to insert a `$$ $$` code fragment
+- Get MathJax to also render when clicking on the `Preview` icon in the editor toolbar

@@ -25,7 +25,7 @@ class Plugin extends Base
 
     public function getPluginDescription()
     {
-        return t('This Pluging adds Mathjax capabilities to the Kanboard');
+        return t('This Pluging adds MathJax capabilities to the Kanboard');
     }
 
     public function getPluginAuthor()
@@ -40,7 +40,7 @@ class Plugin extends Base
 
     public function getPluginHomepage()
     {
-        return 'https://github.com/kanboard/plugin-myplugin';
+        return 'https://github.com/Zaunmich/mathjaxForKanboard';
     }
 }
 
