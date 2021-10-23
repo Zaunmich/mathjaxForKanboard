@@ -1,18 +1,19 @@
 mathjaxForKanboard
 ==============================
 
-This Pluging adds Mathjax capabilities to the Kanboard.
+Functionality:
+--------------
 
-Use $$ \alpha $$ or \\( \alpha \\) for inline math.
-Use $$$ \alpha $$$ or \\[ \alpha \\] for display math.
+This plugin adds Mathjax capabilities to the Kanboard.
+
+- Use $$ \alpha $$ for inline math.
+- Use $$$ \beta $$$ for display/block math.
+- An icon is also added to the text editor toolbar, which inserts a block math environment.
+- The `Preview` functionality in the text editor now also renders MathJax!
+
 
 This plugin uses a CDN (jsdelivr.net) to fetch the required JS files for MathJax.
 
-Sources
-------
-
-- MathJax: https://www.mathjax.org/
-- Kanboard: https://kanboard.org/
 
 Author
 ------
@@ -36,8 +37,20 @@ You have the choice between 3 methods:
 
 Note: Plugin folder is case-sensitive.
 
-ToDos
+
+ToDos / Known Issues:
 -----
 
-- Add icons to the text editor toolbar to insert a `$$ $$` code fragment
-- Get MathJax to also render when clicking on the `Preview` icon in the editor toolbar
+- When using the `Preview`, and having an equation label defined, Mathjax will not render that equation because the label was already defined in the main body!
+
+
+Sources
+------
+
+- MathJax: https://www.mathjax.org/
+- Kanboard: https://kanboard.org/
+
+
+Acknowledgment
+-----
+Creecros's MarkdownPlus was a big help in creating this plugin. See the original at: https://github.com/creecros/MarkdownPlus

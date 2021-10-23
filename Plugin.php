@@ -9,8 +9,12 @@ class Plugin extends Base
 {
     public function initialize()
     {
+        // get Mathjax from CDN
         $this->setContentSecurityPolicy(array('script-src' => "'self' https://cdn.jsdelivr.net/"));
         $this->hook->on('template:layout:js', array('template' => 'plugins/mathjaxForKanboard/Assets/js/load-mathjax.js'));
+
+        //HELPER
+        $this->helper->register('text', '\Kanboard\Plugin\mathjaxForKanboard\Helper\HelperTextHelper');
     }
 
     public function onStartup()
@@ -35,7 +39,7 @@ class Plugin extends Base
 
     public function getPluginVersion()
     {
-        return '1.0.0';
+        return '1.1.0';
     }
 
     public function getPluginHomepage()
