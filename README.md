@@ -1,18 +1,33 @@
 mathjaxForKanboard
 ==============================
 
+![image](https://raw.githubusercontent.com/Zaunmich/mathjaxForKanboard/master/Screenshots/boardview.png)
+
 Functionality:
 --------------
 
 This plugin adds Mathjax capabilities to the Kanboard.
 
-- Use $$ \alpha $$ for inline math.
-- Use $$$ \beta $$$ for display/block math.
+- Use `$$ \alpha $$` for inline math.
+- Use `$$$ \beta $$$` for display/block math.
 - An icon is also added to the text editor toolbar, which inserts a block math environment.
 - The `Preview` functionality in the text editor now also renders MathJax!
 
 
-This plugin uses a CDN (jsdelivr.net) to fetch the required JS files for MathJax.
+⚠ This plugin uses a CDN (jsdelivr.net) to fetch the required JS files for MathJax.
+
+
+Screenshots
+-----------
+
+### Rendered Task:
+![image](https://raw.githubusercontent.com/Zaunmich/mathjaxForKanboard/master/Screenshots/taskview.png)
+
+### Editing Task:
+![image](https://raw.githubusercontent.com/Zaunmich/mathjaxForKanboard/master/Screenshots/editorview.png)
+
+### Previewing Task:
+![image](https://raw.githubusercontent.com/Zaunmich/mathjaxForKanboard/master/Screenshots/taskpreview.png)
 
 
 Author
